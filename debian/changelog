@@ -1,4 +1,4 @@
-plowshare-modules (0~git1667.gfd038c5-1) UNRELEASED; urgency=medium
+plowshare-modules (0~git1667.gfd038c5-1) experimental; urgency=medium
 
   * Initial release. (Closes: #XXXXXX)
 
