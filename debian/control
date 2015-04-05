@@ -15,7 +15,7 @@ Depends:
  plowshare,
  ${misc:Depends}
 Replaces: plowshare
-Conflicts:
+Conflicts: plowshare4
 Description: Plowshare drivers for various file sharing websites
  Plowshare is a framework for interacting with file sharing websites, providing
  an API to perform tasks like uploading and downloading files, and displaying
