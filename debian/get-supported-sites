@@ -1,0 +1,38 @@
+#!/bin/bash
+
+missing() {
+  local s="$*"
+  s="${s#"${s%%[![:space:]]*}"}"
+  s="${s%"${s##*[![:space:]]}"}"
+  test -z "$s"
+}
+
+while IFS='|' read -r name down up _ _ pro
+do
+  site="${name%"${name##*[![:space:]]}"}"
+  site="$(echo "$site" | tr '_' '.')"
+  cond="(no "
+  has_cond=0
+
+  if missing "$down"
+  then
+    has_cond=1
+    cond="${cond}download, "
+  fi
+  if missing "$up"
+  then
+    has_cond=1
+    cond="${cond}upload, "
+  fi
+  if missing "$pro"
+  then
+    has_cond=1
+    cond="${cond}probe, "
+  fi
+  if [ "$has_cond" -eq 0 ]
+  then
+    echo " $site,"
+  else
+    echo " $site ${cond%, }),"
+  fi
+done < <(grep -v '^#' config)

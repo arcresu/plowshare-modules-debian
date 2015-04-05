@@ -1,0 +1,8 @@
+#!/bin/bash
+
+UPSTREAM="$(git merge-base HEAD upstream/master)"
+VERSION="$(debian/get-version)"
+TARBALL="../plowshare-modules_${VERSION}.orig.tar.gz"
+
+git archive --format="tar.gz" "$UPSTREAM" > "$TARBALL" \
+  && echo "$TARBALL"

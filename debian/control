@@ -1,0 +1,114 @@
+Source: plowshare-modules
+Section: web
+Priority: optional
+Maintainer: Carl Suster <carl@contraflo.ws>
+Build-Depends:
+ debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: https://github.com/mcrapet/plowshare-modules-legacy
+Vcs-Git: git://github.com/arcresu/plowshare-modules-debian.git -b debian/unstable
+Vcs-Browser: https://github.com/arcresu/plowshare-modules-debian
+
+Package: plowshare-modules
+Architecture: all
+Depends:
+ plowshare,
+ ${misc:Depends}
+Replaces: plowshare
+Conflicts:
+Description: Plowshare drivers for various file sharing websites
+ Plowshare is a framework for interacting with file sharing websites, providing
+ an API to perform tasks like uploading and downloading files, and displaying
+ CAPTCHAs to solve or sending them to CAPTCHA web services.
+ .
+ This package provides the drivers (called 'modules') for file sharing
+ websites. Because these depend on (often undocumented) rapidly changing
+ external web APIs, you may wish to manually update a copy in your home
+ directory instead of or as well as using the versions in this package.
+ .
+ Supported sites include:
+ 115 (no upload, probe),
+ 180upload,
+ 1fichier,
+ 2shared,
+ 4share.vn,
+ 4shared,
+ anonfiles,
+ bayfiles,
+ bayimg,
+ billionuploads,
+ bitshare,
+ chomikuj,
+ cramit,
+ crocko,
+ data.hu (no probe),
+ dataport.cz (no probe),
+ depositfiles,
+ directmirror (no download, probe),
+ divshare,
+ dl.free.fr,
+ embedupload (no download, upload, probe),
+ euroshare.eu,
+ exoshare (no download, probe),
+ filebin.ca,
+ filecloud,
+ filecore (no upload),
+ filefactory,
+ filemonkey (no download, probe),
+ fileover (no upload),
+ fileparadox (no download, probe),
+ filepost,
+ filepup.net (no upload),
+ filer.net (no upload),
+ firedrive (no upload),
+ flashx (no upload),
+ freakshare,
+ fshare.vn,
+ gamefront,
+ ge.tt,
+ gfile.ru,
+ go4up (no download, probe),
+ hdstream.to,
+ hipfile,
+ jheberg (no download),
+ keep2share,
+ letitbit,
+ mediafire,
+ megashares,
+ mirrorcreator (no download, probe),
+ mirrorupload (no download, probe),
+ multiup.org (no download),
+ multiupload (no probe),
+ myvdrive,
+ nakido (no upload),
+ netkups,
+ netload.in,
+ nowdownload.co,
+ oboom,
+ pastebin (no download, upload, probe),
+ promptfile (no upload),
+ rapidgator,
+ rapidshare,
+ rghost,
+ ryushare,
+ sendspace,
+ sharebeast,
+ shareonline.biz,
+ sockshare,
+ solidfiles,
+ tempsend (no probe),
+ thefilebay,
+ turbobit,
+ ultramegabit,
+ uploadboy (no upload),
+ uploadable.ch,
+ uploadhero,
+ uploading,
+ uploaded.net,
+ upstore,
+ uptobox,
+ vidzi.tv (no download, probe),
+ yourvideohost (no upload),
+ zalaa,
+ ziddu,
+ zippyshare.

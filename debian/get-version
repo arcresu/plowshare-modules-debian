@@ -1,0 +1,4 @@
+#!/bin/bash
+
+git describe --tags --always "$(git merge-base HEAD upstream/master)" \
+  | sed -e 's/-/~git/' -e 's/-/./'

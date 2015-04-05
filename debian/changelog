@@ -1,0 +1,5 @@
+plowshare-modules (0~git1667.gfd038c5-1) UNRELEASED; urgency=medium
+
+  * Initial release. (Closes: #XXXXXX)
+
+ -- Carl Suster <carl@contraflo.ws>  Sun, 05 Apr 2015 12:15:27 +1000
