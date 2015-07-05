@@ -1,4 +1,9 @@
 #!/bin/bash
 
-git describe --tags --always "$(git merge-base HEAD upstream/master)" \
-  | sed -e 's/-/~git/' -e 's/-/./'
+ref="$(git merge-base HEAD upstream/master)"
+date="$(git show -s --format='%ci' "$ref" | cut -d' ' -f1 | tr -d -)"
+git describe --tags --always "$ref" \
+  | sed \
+    -e 's/^/0./' \
+    -e 's/-\([0-9]\+\)/~git'"$date"'/' \
+    -e 's/-/./'

@@ -14,7 +14,7 @@ Architecture: all
 Depends:
  plowshare,
  ${misc:Depends}
-Replaces: plowshare
+Replaces: plowshare4
 Breaks: plowshare4 (<< 2.0.1~)
 Description: Plowshare drivers for various file sharing websites
  Plowshare is a framework for interacting with file sharing websites, providing
