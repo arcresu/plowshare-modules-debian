@@ -1,4 +1,4 @@
-plowshare-modules (0-1~git20150404+gfd038c5) unstable; urgency=medium
+plowshare-modules (0~git20150404.gfd038c5-1) unstable; urgency=medium
 
   * Initial release. (Closes: #791458)
 
