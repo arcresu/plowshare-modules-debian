@@ -4,6 +4,5 @@ ref="$(git merge-base HEAD upstream/master)"
 date="$(git show -s --format='%ci' "$ref" | cut -d' ' -f1 | tr -d -)"
 git describe --tags --always "$ref" \
   | sed \
-    -e 's/^0/0-1/' \
     -e 's/-\([0-9]\+\)/~git'"$date"'/' \
     -e 's/-/+/'
