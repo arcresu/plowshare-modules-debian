@@ -10,6 +10,7 @@ bayfiles        | download | upload | delete |      | probe |
 bayimg          | download | upload | delete |      | probe |
 billionuploads  | download | upload |        |      | probe |
 bitshare        | download | upload | delete |      | probe |
+catshare        | download |        |        |      | probe |
 chomikuj        | download | upload |        | list | probe |
 cramit          | download | upload | delete | list | probe |
 crocko          | download | upload |        | list | probe |
@@ -57,11 +58,13 @@ netkups         | download | upload |        |      | probe |
 netload_in      | download | upload |        | list | probe |
 nowdownload_co  | download | upload |        |      | probe |
 oboom           | download | upload |        | list | probe |
+openload_io     | download |        |        |      | probe |
 pastebin        |          |        |        | list |       |
 promptfile      | download |        |        |      | probe |
 rapidgator      | download | upload | delete | list | probe |
 rapidshare      | download | upload | delete |      | probe |
 rghost          | download | upload |        |      | probe |
+rockfile_eu     |          | upload |        |      |       |
 ryushare        | download | upload |        |      | probe |
 sendspace       | download | upload | delete | list | probe |
 sharebeast      | download | upload | delete |      | probe |
@@ -72,6 +75,7 @@ tempsend        | download | upload |        |      |       |
 thefilebay      | download | upload |        |      | probe |
 turbobit        | download | upload | delete | list | probe |
 ultramegabit    | download | upload |        |      | probe |
+uplea           | download |        |        |      | probe |
 uploadboy       | download |        |        |      | probe |
 uploadable_ch   | download | upload | delete | list | probe |
 uploadhero      | download | upload | delete | list | probe |
@@ -80,6 +84,7 @@ uploaded_net    | download | upload | delete | list | probe |
 upstore         | download | upload |        |      | probe |
 uptobox         | download | upload |        |      | probe |
 vidzi_tv        |          | upload |        |      |       |
+vid_ag          |          | upload |        |      |       |
 yourvideohost   | download |        |        |      | probe |
 zalaa           | download | upload |        | list | probe |
 ziddu           | download | upload |        |      | probe |

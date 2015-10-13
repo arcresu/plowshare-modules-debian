@@ -63,11 +63,12 @@ multiup_org_upload() {
     local USER PASSWORD USER_ID JSON ERR SERVER H FORM_FIELDS
     local -a H1 H2
 
-    [ -n "$AUTH_FREE" ] || return $ERR_LINK_NEED_PERMISSIONS
-    split_auth "$AUTH_FREE" USER PASSWORD || return
+    if [ -n "$AUTH_FREE" ]; then
+        split_auth "$AUTH_FREE" USER PASSWORD || return
 
-    USER_ID=$(multiup_org_login "$USER" "$PASSWORD" "$API_URL") || return
-    log_debug "uid: '$USER_ID'"
+        USER_ID=$(multiup_org_login "$USER" "$PASSWORD" "$API_URL") || return
+        log_debug "uid: '$USER_ID'"
+    fi
 
     # Get fastest server
     JSON=$(curl "$API_URL/get-fastest-server") || return
@@ -86,28 +87,36 @@ multiup_org_upload() {
     JSON=$(curl -F "username=$USER" -F "password=$PASSWORD" \
         "$API_URL/get-list-hosts") || return
 
-    ALL_HOSTS=$(parse_json hosts <<< "$JSON") || return
-    DIS_HOSTS=$(parse_json disableHosts <<< "$JSON") || return
+    if [ -n "$AUTH_FREE" ]; then
+        ALL_HOSTS=$(parse_json hosts <<< "$JSON") || return
+        DIS_HOSTS=$(parse_json disableHosts <<< "$JSON") || return
 
-    # Att: Hoster names must not contain IFS chatacters..
-    IFS=',{}' read -r -a H1 <<< "$ALL_HOSTS"
-    IFS=',[]' read -r -a H2 <<< "$DIS_HOSTS"
-
-    H1=(${H1[@]/#\"})
-    H2=(${H2[@]/#\"})
-    H1=(${H1[@]/\"*})
-    H2=(${H2[@]/%\"})
+        # Att: Hoster names must not contain IFS chatacters..
+        IFS=',{}' read -r -a H1 <<< "$ALL_HOSTS"
+        IFS=',[]' read -r -a H2 <<< "$DIS_HOSTS"
+        
+        H1=(${H1[@]/#\"})
+        H2=(${H2[@]/#\"})
+        H1=(${H1[@]/\"*})
+        H2=(${H2[@]/%\"})
+      
+        if [ -n "$FAVORITES" ]; then
+            # Process H1 - H2
+            # Att: Hoster names must not be substring of each other
+            for H in "${H2[@]}"; do
+                H1=(${H1[@]/$H})
+            done
+            log_debug "favorites hosters: ${H1[@]}"
+        fi
+    else
+        DEFAULT_HOSTS=$(parse_json default <<< "$JSON") || return
+        IFS=',[]' read -r -a H1 <<< "$DEFAULT_HOSTS"
+        
+        H1=(${H1[@]/#\"})
+        H1=(${H1[@]/\"*})
+    fi
 
     log_debug "available hosters: ${H1[@]}"
-
-    if [ -n "$FAVORITES" ]; then
-        # Process H1 - H2
-        # Att: Hoster names must not be substring of each other
-        for H in "${H2[@]}"; do
-            H1=(${H1[@]/$H})
-        done
-        log_debug "favorites hosters: ${H1[@]}"
-    fi
 
     for H in "${H1[@]}"; do
         FORM_FIELDS="$FORM_FIELDS -F $H=true"
