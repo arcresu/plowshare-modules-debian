@@ -1,9 +1,15 @@
 plowshare-modules (0~git20150815.86308d4-1) unstable; urgency=medium
 
-  * New upsteam snapshot.
+  * New upsteam snapshot:
+    - new modules for catshare, openload.io, rghost, rockfile.eu,
+      uplea, vid.ag
+    - fixes for solidfiles, multiup.org, zippyshare, uptobox
 
   * debian/get-version:
     - remove stray 'g' in version string before the git revision.
+
+  * debian/control:
+    - update list of supported services.
 
  -- Carl Suster <carl@contraflo.ws>  Tue, 13 Oct 2015 19:05:44 +0200
 
