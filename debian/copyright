@@ -10,11 +10,6 @@ Copyright: 2009-2010 Arnau Sanchez <tokland@gmail.com>
            2010-2015 Plowshare team <mcrapet@gmail.com>
 License: GPL-3+
 
-Files: dataport_cz.sh
-Copyright: 2011 Petr Pulpán <Pulpan3@gmail.com>
-           2012-2013 Plowshare team <mcrapet@gmail.com>
-License: GPL-3+
-
 Files: 1fichier.sh
 Copyright: 2011 Petr Pulpán <Pulpan3@gmail.com>
            2012-2015 Plowshare team <mcrapet@gmail.com>
@@ -22,6 +17,15 @@ License: GPL-3+
 
 Files: billionuploads.sh
 Copyright: 2012-2013 Antoine Girard <sapk@sapk.fr>
+License: GPL-3+
+
+Files: catshare.sh
+Copyright: 2015 Raziel-23 <venom23@runbox.com>
+License: GPL-3+
+
+Files: dataport_cz.sh
+Copyright: 2011 Petr Pulpán <Pulpan3@gmail.com>
+           2012-2013 Plowshare team <mcrapet@gmail.com>
 License: GPL-3+
 
 Files: euroshare_eu.sh
@@ -33,6 +37,10 @@ Files: oboom.sh
 Copyright: 2000-2009 Paul Johnston <paj@pajhome.org.uk>
            2014 Plowshare team <mcrapet@gmail.com>
 License: BSD-3-clause and GPL-3+
+
+Files: openload_io.sh
+Copyright: 2015 ljsdoug <sdoug@inbox.com>
+License: GPL-3+
 
 Files: debian/*
 Copyright: 2015 Carl Suster <carl@contraflo.ws>
