@@ -1,3 +1,12 @@
+plowshare-modules (0~git20150815.86308d4-1) unstable; urgency=medium
+
+  * New upsteam snapshot.
+
+  * debian/get-version:
+    - remove stray 'g' in version string before the git revision.
+
+ -- Carl Suster <carl@contraflo.ws>  Tue, 13 Oct 2015 19:05:44 +0200
+
 plowshare-modules (0~git20150404.gfd038c5-1) unstable; urgency=medium
 
   * Initial release. (Closes: #791458)
