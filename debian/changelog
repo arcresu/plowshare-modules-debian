@@ -1,3 +1,13 @@
+plowshare-modules (0~git20160101.64d5186-1) unstable; urgency=medium
+
+  * New upstream snapshot:
+    - fixes for 1fichier, jheberg, multiup.org
+
+  * debian/control:
+    - minor rewording of description
+
+ -- Carl Suster <carl@contraflo.ws>  Tue, 05 Jan 2016 16:17:31 +0100
+
 plowshare-modules (0~git20150815.86308d4-1) unstable; urgency=medium
 
   * New upsteam snapshot:

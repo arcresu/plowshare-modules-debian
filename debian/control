@@ -16,10 +16,10 @@ Depends:
  ${misc:Depends}
 Replaces: plowshare4 (<< 2.0.1~)
 Breaks: plowshare4 (<< 2.0.1~)
-Description: Plowshare drivers for various file sharing websites
- Plowshare is a framework for interacting with file sharing websites, providing
- an API to perform tasks like uploading and downloading files, and displaying
- CAPTCHAs to solve or sending them to CAPTCHA web services.
+Description: plowshare drivers for various file sharing websites
+ Plowshare is a framework for interacting with file sharing websites,
+ providing an API to perform tasks like uploading and downloading files,
+ and displaying CAPTCHAs to solve or sending them to CAPTCHA web services.
  .
  This package provides the drivers (called 'modules') for file sharing
  websites. Because these depend on (often undocumented) rapidly changing
