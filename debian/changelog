@@ -10,7 +10,7 @@ plowshare-modules (0~git20160101.64d5186-1) unstable; urgency=medium
 
 plowshare-modules (0~git20150815.86308d4-1) unstable; urgency=medium
 
-  * New upsteam snapshot:
+  * New upstream snapshot:
     - new modules for catshare, openload.io, rghost, rockfile.eu,
       uplea, vid.ag
     - fixes for solidfiles, multiup.org, zippyshare, uptobox
