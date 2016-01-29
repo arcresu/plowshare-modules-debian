@@ -33,6 +33,18 @@ Copyright: 2011 Petr Pulpán <Pulpan3@gmail.com>
            2012-2013 Plowshare team <mcrapet@gmail.com>
 License: GPL-3+
 
+Files: filejoker.sh
+Copyright: 2016 idleloop <idleloop@yahoo.com>
+License: GPL-3+
+
+Files: fileshark.sh
+Copyright: 2016 Raziel-23
+License: GPL-3+
+
+Files: lunaticfiles.sh
+Copyright: 2016 Raziel-23
+License: GPL-3+
+
 Files: oboom.sh
 Copyright: 2000-2009 Paul Johnston <paj@pajhome.org.uk>
            2014 Plowshare team <mcrapet@gmail.com>
@@ -40,6 +52,10 @@ License: BSD-3-clause and GPL-3+
 
 Files: openload_io.sh
 Copyright: 2015 ljsdoug <sdoug@inbox.com>
+License: GPL-3+
+
+Files: salefiles.sh
+Copyright: 2016 idleloop <idleloop@yahoo.com>
 License: GPL-3+
 
 Files: debian/*

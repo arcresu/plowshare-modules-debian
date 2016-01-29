@@ -1,10 +1,22 @@
+plowshare-modules (0~git20160124.8a8190d-1) unstable; urgency=medium
+
+  * New upstream snapshot:
+    - new modules for filejoker, fileshark, lunaticfiles, salefiles
+    - fixes for 4shared, catshare, depositfiles, mediafire, turbobit,
+      uploadable.ch, zippyshare
+  * debian/control:
+    - update list of supported services.
+  * debian/copyright:
+    - add copyright details for new files.
+
+ -- Carl Suster <carl@contraflo.ws>  Fri, 29 Jan 2016 17:58:12 +1100
+
 plowshare-modules (0~git20160101.64d5186-1) unstable; urgency=medium
 
   * New upstream snapshot:
     - fixes for 1fichier, jheberg, multiup.org
-
   * debian/control:
-    - minor rewording of description
+    - minor rewording of description.
 
  -- Carl Suster <carl@contraflo.ws>  Tue, 05 Jan 2016 16:17:31 +0100
 
@@ -14,13 +26,10 @@ plowshare-modules (0~git20150815.86308d4-1) unstable; urgency=medium
     - new modules for catshare, openload.io, rghost, rockfile.eu,
       uplea, vid.ag
     - fixes for solidfiles, multiup.org, zippyshare, uptobox
-
   * debian/get-version:
     - remove stray 'g' in version string before the git revision.
-
   * debian/control:
     - update list of supported services.
-
   * debian/copyright:
     - update for the two new files with non-team copyrights.
 
