@@ -27,12 +27,14 @@ filebin_ca      | download | upload |        |      | probe |
 filecloud       | download | upload |        | list | probe |
 filecore        | download |        |        |      | probe |
 filefactory     | download | upload |        | list | probe |
+filejoker       | download |        |        |      | probe |
 filemonkey      |          | upload |        |      |       |
 fileover        | download |        |        |      | probe |
 fileparadox     |          | upload |        |      |       |
 filepost        | download | upload | delete | list | probe |
 filepup_net     | download |        |        |      | probe |
 filer_net       | download |        |        | list | probe |
+fileshark       | download |        |        |      | probe |
 firedrive       | download |        |        |      | probe |
 flashx          | download |        |        |      | probe |
 freakshare      | download | upload |        |      | probe |
@@ -46,6 +48,7 @@ hipfile         | download | upload | delete | list | probe |
 jheberg         |          | upload |        | list | probe |
 keep2share      | download | upload |        |      | probe |
 letitbit        | download | upload | delete | list | probe |
+lunaticfiles    | download |        |        |      | probe |
 mediafire       | download | upload |        | list | probe |
 megashares      | download | upload | delete |      | probe |
 mirrorcreator   |          | upload |        | list |       |
@@ -66,6 +69,7 @@ rapidshare      | download | upload | delete |      | probe |
 rghost          | download | upload |        |      | probe |
 rockfile_eu     |          | upload |        |      |       |
 ryushare        | download | upload |        |      | probe |
+salefiles       | download |        |        |      | probe |
 sendspace       | download | upload | delete | list | probe |
 sharebeast      | download | upload | delete |      | probe |
 shareonline_biz | download | upload |        |      | probe |
