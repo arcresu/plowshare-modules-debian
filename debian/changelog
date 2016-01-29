@@ -6,6 +6,7 @@ plowshare-modules (0~git20160124.8a8190d-1) unstable; urgency=medium
       uploadable.ch, zippyshare
   * debian/control:
     - update list of supported services.
+    - use https git URI in Vcs field.
   * debian/copyright:
     - add copyright details for new files.
 
