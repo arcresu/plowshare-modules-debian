@@ -1,4 +1,4 @@
-plowshare-modules (0~git20160205.48fea9b) unstable; urgency=medium
+plowshare-modules (0~git20160205.48fea9b-1) unstable; urgency=medium
 
   * New upstream snapshot (git 48fea9b):
     + new: rapidu, tempshare
