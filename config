@@ -65,7 +65,7 @@ openload_io     | download |        |        |      | probe |
 pastebin        |          |        |        | list |       |
 promptfile      | download |        |        |      | probe |
 rapidgator      | download | upload | delete | list | probe |
-rapidshare      | download | upload | delete |      | probe |
+rapidu          | download |        |        |      | probe |
 rghost          | download | upload |        |      | probe |
 rockfile_eu     |          | upload |        |      |       |
 ryushare        | download | upload |        |      | probe |
@@ -76,6 +76,7 @@ shareonline_biz | download | upload |        |      | probe |
 sockshare       | download | upload | delete | list | probe |
 solidfiles      | download | upload |        | list | probe |
 tempsend        | download | upload |        |      |       |
+tempshare       | download |        |        |      | probe |
 thefilebay      | download | upload |        |      | probe |
 turbobit        | download | upload | delete | list | probe |
 ultramegabit    | download | upload |        |      | probe |
