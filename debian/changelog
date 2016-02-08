@@ -1,8 +1,21 @@
+plowshare-modules (0~git20160205.48fea9b) unstable; urgency=medium
+
+  * New upstream snapshot (git 48fea9b):
+    + new: rapidu, tempshare
+    + fixed: catshare, uptobox
+    - removed: rapidshare
+  * debian/control:
+    - update list of supported services.
+  * debian/copyright:
+    - add copyright details for new file.
+
+ -- Carl Suster <carl@contraflo.ws>  Mon, 08 Feb 2016 13:28:49 +1100
+
 plowshare-modules (0~git20160124.8a8190d-1) unstable; urgency=medium
 
-  * New upstream snapshot:
-    - new modules for filejoker, fileshark, lunaticfiles, salefiles
-    - fixes for 4shared, catshare, depositfiles, mediafire, turbobit,
+  * New upstream snapshot (git 8a8190d):
+    + new: filejoker, fileshark, lunaticfiles, salefiles
+    + fixed: 4shared, catshare, depositfiles, mediafire, turbobit,
       uploadable.ch, zippyshare
   * debian/control:
     - update list of supported services.
@@ -14,8 +27,8 @@ plowshare-modules (0~git20160124.8a8190d-1) unstable; urgency=medium
 
 plowshare-modules (0~git20160101.64d5186-1) unstable; urgency=medium
 
-  * New upstream snapshot:
-    - fixes for 1fichier, jheberg, multiup.org
+  * New upstream snapshot (git 64d5186):
+    + fixed: 1fichier, jheberg, multiup.org
   * debian/control:
     - minor rewording of description.
 
@@ -23,10 +36,10 @@ plowshare-modules (0~git20160101.64d5186-1) unstable; urgency=medium
 
 plowshare-modules (0~git20150815.86308d4-1) unstable; urgency=medium
 
-  * New upstream snapshot:
-    - new modules for catshare, openload.io, rghost, rockfile.eu,
+  * New upstream snapshot (git 86308d4):
+    + new: catshare, openload.io, rghost, rockfile.eu,
       uplea, vid.ag
-    - fixes for solidfiles, multiup.org, zippyshare, uptobox
+    + fixed: solidfiles, multiup.org, zippyshare, uptobox
   * debian/get-version:
     - remove stray 'g' in version string before the git revision.
   * debian/control:

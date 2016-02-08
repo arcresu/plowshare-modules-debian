@@ -54,8 +54,16 @@ Files: openload_io.sh
 Copyright: 2015 ljsdoug <sdoug@inbox.com>
 License: GPL-3+
 
+Files: rapidu.sh
+Copyright: 2016 Raziel-23 <venom23@runbox.com>
+License: GPL-3+
+
 Files: salefiles.sh
 Copyright: 2016 idleloop <idleloop@yahoo.com>
+License: GPL-3+
+
+Files: tempshare.sh
+Copyright: 2016 Plowshare team <mcrapet@gmail.com>
 License: GPL-3+
 
 Files: debian/*
