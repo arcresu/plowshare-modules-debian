@@ -23,6 +23,7 @@ dl_free_fr      | download | upload | delete |      | probe |
 embedupload     |          |        |        | list |       |
 euroshare_eu    | download | upload | delete |      | probe |
 exoshare        |          | upload |        | list |       |
+fboom_me        | download |        |        |      | probe |
 filebin_ca      | download | upload |        |      | probe |
 filecloud       | download | upload |        | list | probe |
 filecore        | download |        |        |      | probe |
@@ -59,6 +60,7 @@ myvdrive        | download | upload |        | list | probe |
 nakido          | download |        |        |      | probe |
 netkups         | download | upload |        |      | probe |
 netload_in      | download | upload |        | list | probe |
+nitroflare      | download |        |        |      | probe |
 nowdownload_co  | download | upload |        |      | probe |
 oboom           | download | upload |        | list | probe |
 openload_io     | download |        |        |      | probe |
@@ -72,6 +74,7 @@ ryushare        | download | upload |        |      | probe |
 salefiles       | download |        |        |      | probe |
 sendspace       | download | upload | delete | list | probe |
 sharebeast      | download | upload | delete |      | probe |
+sharehost       | download |        |        |      | probe |
 shareonline_biz | download | upload |        |      | probe |
 sockshare       | download | upload | delete | list | probe |
 solidfiles      | download | upload |        | list | probe |
@@ -79,8 +82,10 @@ tempsend        | download | upload |        |      |       |
 tempshare       | download |        |        |      | probe |
 thefilebay      | download | upload |        |      | probe |
 turbobit        | download | upload | delete | list | probe |
+uloz_to         | download |        |        |      | probe |
 ultramegabit    | download | upload |        |      | probe |
 uplea           | download |        |        |      | probe |
+upload_cd       | download |        |        |      | probe |
 uploadboy       | download |        |        |      | probe |
 uploadable_ch   | download | upload | delete | list | probe |
 uploadhero      | download | upload | delete | list | probe |

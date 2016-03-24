@@ -64,17 +64,14 @@ lunaticfiles_login() {
 # stdout: real file download link
 lunaticfiles_download() {
     local -r COOKIE_FILE=$1
-    local URL=$2
     local -r BASE_URL='http://lunaticfiles.com/'
-    local REAL_URL PAGE WAIT_TIME FILE_URL
+    local URL PAGE WAIT_TIME FILE_URL
     local FORM_HTML FORM_OP FORM_USR FORM_ID FORM_FNAME FORM_REF
     local FORM_METHOD_F FORM_METHOD_P FORM_RAND FORM_DS FORM_SUBMIT
 
     # Get a canonical URL for this file.
-    REAL_URL=$(curl -I "$URL" | grep_http_header_location_quiet) || return
-    if test "$REAL_URL"; then
-        URL="$REAL_URL"
-    fi
+    URL=$(curl -I "$2" | grep_http_header_location_quiet) || return
+    [ -n "$URL" ] || URL=$2
     readonly URL
 
     lunaticfiles_switch_lang "$COOKIE_FILE" "$BASE_URL"
@@ -191,8 +188,9 @@ lunaticfiles_probe() {
     fi
 
     if [[ $REQ_IN = *s* ]]; then
-        FILE_SIZE=$(parse '<[Pp][[:space:]].*\[' '\[\(.*\)\]' <<< "$PAGE") && \
-            translate_size "$FILE_SIZE" && REQ_OUT="${REQ_OUT}s"
+        FILE_SIZE=$(parse '<[Pp][[:space:]].*\[' '\[\(.*\)\]' <<< "$PAGE") \
+            && FILE_SIZE=$(replace 'B' 'iB' <<< $FILE_SIZE) \
+            && translate_size "$FILE_SIZE" && REQ_OUT="${REQ_OUT}s"
     fi
 
     if [[ $REQ_IN = *i* ]]; then
