@@ -6,6 +6,7 @@ plowshare-modules (0~git20160319.048d805-1) unstable; urgency=medium
       salefiles, solidfiles, tempshare, zippyshare
   * debian/control:
     - update list of supported services.
+    - bump standards version to 3,9,7 (no change needed).
   * debian/copyright:
     - add copyright details for new files.
     - changed copyright of tempshare.sh to reflect upstream change.
