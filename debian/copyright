@@ -33,16 +33,24 @@ Copyright: 2011 Petr Pulpán <Pulpan3@gmail.com>
            2012-2013 Plowshare team <mcrapet@gmail.com>
 License: GPL-3+
 
+Files: fboom_me.sh
+Copyright: 2016 idleloop <idleloop@yahoo.com>
+License: GPL-3+
+
 Files: filejoker.sh
 Copyright: 2016 idleloop <idleloop@yahoo.com>
 License: GPL-3+
 
 Files: fileshark.sh
-Copyright: 2016 Raziel-23
+Copyright: 2016 Raziel-23 <venom23@runbox.com>
 License: GPL-3+
 
 Files: lunaticfiles.sh
-Copyright: 2016 Raziel-23
+Copyright: 2016 Raziel-23 <venom23@runbox.com>
+License: GPL-3+
+
+Files: nitroflare.sh
+Copyright: 2016 Raziel-23 <venom23@runbox.com>
 License: GPL-3+
 
 Files: oboom.sh
@@ -62,8 +70,20 @@ Files: salefiles.sh
 Copyright: 2016 idleloop <idleloop@yahoo.com>
 License: GPL-3+
 
+Files: sharehost.sh
+Copyright: 2016 Raziel-23 <venom23@runbox.com>
+License: GPL-3+
+
 Files: tempshare.sh
-Copyright: 2016 Plowshare team <mcrapet@gmail.com>
+Copyright: 2016 Raziel-23 <venom23@runbox.com>
+License: GPL-3+
+
+Files: uloz_to.sh
+Copyright: 2016 Raziel-23 <venom23@runbox.com>
+License: GPL-3+
+
+Files: upload_cd.sh
+Copyright: 2016 idleloop <idleloop@yahoo.com>
 License: GPL-3+
 
 Files: debian/*
