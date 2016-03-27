@@ -1,15 +1,18 @@
-plowshare-modules (0~git20160319.048d805-1) unstable; urgency=medium
+plowshare-modules (0~git20160324.ed98e31-1) unstable; urgency=medium
 
   * New upstream snapshot (git 048d805):
     + new: fboom.me, nitroflare, sharehost, uloz.to, upload.cd
     + fixed: 1fichier, filejoker, fileshark, keep2share, lunaticfiles,
       salefiles, solidfiles, tempshare, zippyshare
+    - removed: cramit
   * debian/control:
     - update list of supported services.
     - bump standards version to 3,9,7 (no change needed).
   * debian/copyright:
     - add copyright details for new files.
     - changed copyright of tempshare.sh to reflect upstream change.
+  * debian/docs:
+    - install all documentation files.
 
  -- Carl Suster <carl@contraflo.ws>  Thu, 24 Mar 2016 14:19:39 +1100
 
