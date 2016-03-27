@@ -11,8 +11,8 @@ plowshare-modules (0~git20160324.ed98e31-1) unstable; urgency=medium
   * debian/copyright:
     - add copyright details for new files.
     - changed copyright of tempshare.sh to reflect upstream change.
-  * debian/docs:
-    - install all documentation files.
+  * debian/plowshare-modules.docs:
+    - install CONTRIBUTING file.
 
  -- Carl Suster <carl@contraflo.ws>  Thu, 24 Mar 2016 14:19:39 +1100
 
