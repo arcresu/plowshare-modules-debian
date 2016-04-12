@@ -1,3 +1,16 @@
+plowshare-modules (0~git20160408.e70155c-1) UNRELEASED; urgency=medium
+
+  * New upstream snapshot (git e70155c):
+    + new: espafiles, videowood.tv
+    + fixed: jheberg, nowdownload.co, openload.io, shareonline.biz,
+      solidfiles, uploaded.net
+  * debian/control:
+    - update list of supported services.
+  * debian/copyright:
+    - add copyright details for new files.
+
+ -- Carl Suster <carl@contraflo.ws>  Tue, 12 Apr 2016 10:03:27 +1000
+
 plowshare-modules (0~git20160324.ed98e31-1) unstable; urgency=medium
 
   * New upstream snapshot (git ed98e31):

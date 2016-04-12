@@ -28,6 +28,10 @@ Copyright: 2011 Petr Pulpán <Pulpan3@gmail.com>
            2012-2013 Plowshare team <mcrapet@gmail.com>
 License: GPL-3+
 
+Files: espafiles.sh
+Copyright: 2016 dataoscar
+License: GPL-3+
+
 Files: euroshare_eu.sh
 Copyright: 2011 Petr Pulpán <Pulpan3@gmail.com>
            2012-2013 Plowshare team <mcrapet@gmail.com>
@@ -84,6 +88,10 @@ License: GPL-3+
 
 Files: upload_cd.sh
 Copyright: 2016 idleloop <idleloop@yahoo.com>
+License: GPL-3+
+
+Files: videowood_tv.sh
+Copyright: 2016 Raziel-23 <venom23@runbox.com>
 License: GPL-3+
 
 Files: debian/*
