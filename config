@@ -20,6 +20,7 @@ directmirror    |          | upload |        | list |       |
 divshare        | download | upload | delete | list | probe |
 dl_free_fr      | download | upload | delete |      | probe |
 embedupload     |          |        |        | list |       |
+espafiles       | download |        |        |      | probe |
 euroshare_eu    | download | upload | delete |      | probe |
 exoshare        |          | upload |        | list |       |
 fboom_me        | download |        |        |      | probe |
@@ -62,7 +63,7 @@ netload_in      | download | upload |        | list | probe |
 nitroflare      | download |        |        |      | probe |
 nowdownload_co  | download | upload |        |      | probe |
 oboom           | download | upload |        | list | probe |
-openload_io     | download |        |        |      | probe |
+openload_io     | download | upload |        |      | probe |
 pastebin        |          |        |        | list |       |
 promptfile      | download |        |        |      | probe |
 rapidgator      | download | upload | delete | list | probe |
@@ -92,6 +93,7 @@ uploading       | download | upload |        |      | probe |
 uploaded_net    | download | upload | delete | list | probe |
 upstore         | download | upload |        |      | probe |
 uptobox         | download | upload |        |      | probe |
+videowood_tv    |          | upload |        |      |       |
 vidzi_tv        |          | upload |        |      |       |
 vid_ag          |          | upload |        |      |       |
 yourvideohost   | download |        |        |      | probe |
