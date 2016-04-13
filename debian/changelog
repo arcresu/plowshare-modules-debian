@@ -1,4 +1,4 @@
-plowshare-modules (0~git20160408.e70155c-1) UNRELEASED; urgency=medium
+plowshare-modules (0~git20160408.e70155c-1) unstable; urgency=medium
 
   * New upstream snapshot (git e70155c):
     + new: espafiles, videowood.tv
