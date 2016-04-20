@@ -20,12 +20,21 @@ Copyright: 2012-2013 Antoine Girard <sapk@sapk.fr>
 License: GPL-3+
 
 Files: catshare.sh
-Copyright: 2015 Raziel-23 <venom23@runbox.com>
+       fileshark.sh
+       lunaticfiles.sh
+       nitroflare.sh
+       rapidu.sh
+       sharehost.sh
+       tempshare.sh
+       uloz_to.sh
+       videowood_tv.sh
+Copyright: 2016 Plowshare team
 License: GPL-3+
+Comment: Previously held by Raziel-23 <venom23@runbox.com>
 
 Files: dataport_cz.sh
 Copyright: 2011 Petr Pulpán <Pulpan3@gmail.com>
-           2012-2013 Plowshare team <mcrapet@gmail.com>
+           2012-2013 Plowshare team
 License: GPL-3+
 
 Files: espafiles.sh
@@ -34,7 +43,7 @@ License: GPL-3+
 
 Files: euroshare_eu.sh
 Copyright: 2011 Petr Pulpán <Pulpan3@gmail.com>
-           2012-2013 Plowshare team <mcrapet@gmail.com>
+           2012-2013 Plowshare team
 License: GPL-3+
 
 Files: fboom_me.sh
@@ -45,57 +54,38 @@ Files: filejoker.sh
 Copyright: 2016 idleloop <idleloop@yahoo.com>
 License: GPL-3+
 
-Files: fileshark.sh
-Copyright: 2016 Raziel-23 <venom23@runbox.com>
-License: GPL-3+
-
-Files: lunaticfiles.sh
-Copyright: 2016 Raziel-23 <venom23@runbox.com>
-License: GPL-3+
-
-Files: nitroflare.sh
-Copyright: 2016 Raziel-23 <venom23@runbox.com>
-License: GPL-3+
-
 Files: oboom.sh
 Copyright: 2000-2009 Paul Johnston <paj@pajhome.org.uk>
-           2014 Plowshare team <mcrapet@gmail.com>
+           2014 Plowshare team
 License: BSD-3-clause and GPL-3+
 
-Files: openload_io.sh
+Files: openload.sh
 Copyright: 2015 ljsdoug <sdoug@inbox.com>
+           2016 Plowshare team
 License: GPL-3+
 
-Files: rapidu.sh
-Copyright: 2016 Raziel-23 <venom23@runbox.com>
+Files: prefiles.sh
+Copyright: 2016 Plowshare team
 License: GPL-3+
 
 Files: salefiles.sh
 Copyright: 2016 idleloop <idleloop@yahoo.com>
 License: GPL-3+
 
-Files: sharehost.sh
-Copyright: 2016 Raziel-23 <venom23@runbox.com>
+Files: tempsend.sh
+Copyright: 2014-2016 Plowshare team
 License: GPL-3+
 
-Files: tempshare.sh
-Copyright: 2016 Raziel-23 <venom23@runbox.com>
-License: GPL-3+
-
-Files: uloz_to.sh
-Copyright: 2016 Raziel-23 <venom23@runbox.com>
+Files: tezfiles.sh
+Copyright: 2016 Plowshare team
 License: GPL-3+
 
 Files: upload_cd.sh
 Copyright: 2016 idleloop <idleloop@yahoo.com>
 License: GPL-3+
 
-Files: videowood_tv.sh
-Copyright: 2016 Raziel-23 <venom23@runbox.com>
-License: GPL-3+
-
 Files: debian/*
-Copyright: 2015 Carl Suster <carl@contraflo.ws>
+Copyright: 2015-2016 Carl Suster <carl@contraflo.ws>
 License: GPL-3+
 
 License: GPL-3+

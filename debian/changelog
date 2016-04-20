@@ -1,3 +1,18 @@
+plowshare-modules (0~git20160417.384072a-1) unstable; urgency=medium
+
+  * New upstream snapshot (git 384072a):
+    + new: prefiles, tezfiles
+    + fixed: tempsend, tempshare
+    + renamed: openload.io -> openload
+  * debian/copyright:
+    - update copyright from Raziel-23 -> Plowshare team per upstream.
+    - update copyright years per upstream, and extend for packaging.
+    - add copyright details for new files.
+  * debian/control:
+    - update list of supported services.
+
+ -- Carl Suster <carl@contraflo.ws>  Wed, 20 Apr 2016 18:46:50 +1000
+
 plowshare-modules (0~git20160408.e70155c-1) unstable; urgency=medium
 
   * New upstream snapshot (git e70155c):
