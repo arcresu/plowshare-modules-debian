@@ -9,6 +9,7 @@ plowshare-modules (0~git20160511.35a460e-1) unstable; urgency=medium
   * debian/plowshare-modules.docs: install new README.md
   * debian/control:
     - update list of supported services.
+    - bump standards version to 3.9.8 (no change needed).
   * debian/copyright:
     - update copyright details for new and changed files.
 

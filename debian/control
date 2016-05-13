@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Carl Suster <carl@contraflo.ws>
 Build-Depends:
  debhelper (>= 9)
-Standards-Version: 3.9.7
+Standards-Version: 3.9.8
 Homepage: https://github.com/mcrapet/plowshare-modules-legacy
 Vcs-Git: https://github.com/arcresu/plowshare-modules-debian.git -b debian/unstable
 Vcs-Browser: https://github.com/arcresu/plowshare-modules-debian
