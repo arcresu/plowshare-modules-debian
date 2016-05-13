@@ -51,7 +51,7 @@ Copyright: 2016 idleloop <idleloop@yahoo.com>
 License: GPL-3+
 
 Files: filejoker.sh
-Copyright: 2016 idleloop <idleloop@yahoo.com>
+Copyright: 2016 Plowshare team
 License: GPL-3+
 
 Files: oboom.sh
@@ -82,6 +82,10 @@ License: GPL-3+
 
 Files: upload_cd.sh
 Copyright: 2016 idleloop <idleloop@yahoo.com>
+License: GPL-3+
+
+Files: uploadrocket.sh
+Copyright: 2016 Plowshare team
 License: GPL-3+
 
 Files: debian/*

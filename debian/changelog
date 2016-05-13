@@ -1,3 +1,19 @@
+plowshare-modules (0~git20160511.35a460e-1) unstable; urgency=medium
+
+  * New upstream snapshot (git 35a460e):
+    + new: uploadrocket
+    + fixed: catshare, filejoker, go4up, rapidi, uploaded.net, vidzi.tv,
+      zippyshare
+    + minor improvement: lunaticfiles, tempshare
+    - removed: uploadhero
+  * debian/plowshare-modules.docs: install new README.md
+  * debian/control:
+    - update list of supported services.
+  * debian/copyright:
+    - update copyright details for new and changed files.
+
+ -- Carl Suster <carl@contraflo.ws>  Fri, 13 May 2016 13:11:07 +1000
+
 plowshare-modules (0~git20160417.384072a-1) unstable; urgency=medium
 
   * New upstream snapshot (git 384072a):
@@ -8,8 +24,6 @@ plowshare-modules (0~git20160417.384072a-1) unstable; urgency=medium
     - update copyright from Raziel-23 -> Plowshare team per upstream.
     - update copyright years per upstream, and extend for packaging.
     - add copyright details for new files.
-  * debian/control:
-    - update list of supported services.
 
  -- Carl Suster <carl@contraflo.ws>  Wed, 20 Apr 2016 18:46:50 +1000
 
