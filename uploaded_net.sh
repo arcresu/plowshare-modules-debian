@@ -70,7 +70,7 @@ uploaded_net_login() {
     # Determine account type
     PAGE=$(curl -b "$COOKIE_FILE" "$BASE_URL/me") || return
     ID=$(parse 'ID:' '<em.*>\(.*\)</em>' 1 <<< "$PAGE") || return
-    TYPE=$(parse 'Status:' '<em>\(.*\)</em>' 1 <<< "$PAGE") || return
+    TYPE=$(parse 'Status:' '<em>\(.*\)</em>' 2 <<< "$PAGE") || return
     NAME=$(parse_quiet 'Alias:' '<b><b>\(.*\)</b></b>' 1 <<< "$PAGE")
 
     if [ "$TYPE" = 'Free' ]; then
@@ -264,7 +264,7 @@ uploaded_net_download() {
 
         # Determine account type
         local TYPE
-        TYPE=$(parse 'Status:' '<em>\(.*\)</em>' 1 <<< "$PAGE") || return
+        TYPE=$(parse 'Status:' '<em>\(.*\)</em>' 2 <<< "$PAGE") || return
         ACCOUNT=$(lowercase "$TYPE")
 
         SESS=$(parse_cookie 'auth' < "$COOKIE_FILE")
@@ -496,7 +496,7 @@ uploaded_net_upload() {
 
         # Determine account type
         local TYPE
-        TYPE=$(parse 'Status:' '<em>\(.*\)</em>' 1 <<< "$PAGE") || return
+        TYPE=$(parse 'Status:' '<em>\(.*\)</em>' 2 <<< "$PAGE") || return
         ACCOUNT=$(lowercase "$TYPE")
 
         SESS=$(parse_cookie 'auth' < "$COOKIE_FILE")
