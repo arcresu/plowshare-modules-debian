@@ -1,4 +1,4 @@
-plowshare-modules (0~git20160530.40ebcaf-1) UNRELEASED; urgency=medium
+plowshare-modules (0~git20160530.40ebcaf-1) unstable; urgency=medium
 
   * New upstream release (git 40ebcaf):
     + new: filedais/anafile, hotlink.cc
@@ -13,7 +13,7 @@ plowshare-modules (0~git20160530.40ebcaf-1) UNRELEASED; urgency=medium
   * debian/control:
     - update list of supported services.
 
- -- Carl Suster <carl@contraflo.ws>  Fri, 03 Jun 2016 17:07:22 +1000
+ -- Carl Suster <carl@contraflo.ws>  Fri, 03 Jun 2016 17:25:43 +1000
 
 plowshare-modules (0~git20160511.35a460e-1) unstable; urgency=medium
 
