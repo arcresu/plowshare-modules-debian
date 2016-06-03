@@ -1,3 +1,20 @@
+plowshare-modules (0~git20160530.40ebcaf-1) UNRELEASED; urgency=medium
+
+  * New upstream release (git 40ebcaf):
+    + new: filedais/anafile, hotlink.cc
+    + improved: uploadrocket (+download), fileshark (+premium),
+      go4up (+partial), keep2share (+ free download), rapidu (+premium),
+      uploadrocket (+download, +probe)
+    + renamed: uploadable.ch → bigfile
+    + fixed: mediafire, nitroflare, openload, rghost, tezfiles, uloz.to,
+      uplea, uploaded.net
+  * debian/copyright:
+    - update copyright details for new and changed files.
+  * debian/control:
+    - update list of supported services.
+
+ -- Carl Suster <carl@contraflo.ws>  Fri, 03 Jun 2016 17:07:22 +1000
+
 plowshare-modules (0~git20160511.35a460e-1) unstable; urgency=medium
 
   * New upstream snapshot (git 35a460e):

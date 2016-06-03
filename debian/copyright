@@ -32,6 +32,10 @@ Copyright: 2016 Plowshare team
 License: GPL-3+
 Comment: Previously held by Raziel-23 <venom23@runbox.com>
 
+Files: bigfile.sh
+Copyright: 2016 Plowshare team
+License: GPL-3+
+
 Files: dataport_cz.sh
 Copyright: 2011 Petr Pulpán <Pulpan3@gmail.com>
            2012-2013 Plowshare team
@@ -50,7 +54,15 @@ Files: fboom_me.sh
 Copyright: 2016 idleloop <idleloop@yahoo.com>
 License: GPL-3+
 
+Files: filedais.sh
+Copyright: 2016 Ben Zho <0xbzho@gmail.com>
+License: GPL-3+
+
 Files: filejoker.sh
+Copyright: 2016 Plowshare team
+License: GPL-3+
+
+Files: hotlink_cc.sh
 Copyright: 2016 Plowshare team
 License: GPL-3+
 
