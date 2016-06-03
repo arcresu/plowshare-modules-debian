@@ -257,15 +257,15 @@ mediafire_download() {
 
     # handle captcha (reCaptcha or SolveMedia) if there is one
     if match '<form[^>]*form_captcha' "$PAGE"; then
-        local FORM_CAPTCHA PUBKEY CHALLENGE ID RESP CAPTCHA_DATA
+        local FORM_CAPTCHA PUBKEY CHALLENGE ID RESP CAPTCHA_DATA SECURITY_CODE
 
         FORM_CAPTCHA=$(grep_form_by_name "$PAGE" 'form_captcha') || return
 
-        if match 'recaptcha/api' "$FORM_CAPTCHA"; then
+        if match 'class="g-recaptcha"' "$FORM_CAPTCHA"; then
             log_debug 'reCaptcha found'
 
             local WORD
-            PUBKEY='6LextQUAAAAAALlQv0DSHOYxqF3DftRZxA5yebEe'
+            PUBKEY='6LeGuMUSAAAAACGl-wDE9NNLuUZygPg7iNvMGtXD'
             RESP=$(recaptcha_process $PUBKEY) || return
             { read WORD; read CHALLENGE; read ID; } <<< "$RESP"
 
@@ -287,11 +287,17 @@ mediafire_download() {
 
         log_debug "Captcha data: $CAPTCHA_DATA"
 
+        SECURITY_CODE=$(parse 'security' 'name="security" value="\([^"]*\)' \
+            <<< "$FORM_CAPTCHA") || return
+
         PAGE=$(curl --location -b "$COOKIE_FILE" --referer "$URL" \
-            $CAPTCHA_DATA "$BASE_URL/?$FILE_ID") || return
+            -d "security=$SECURITY_CODE" $CAPTCHA_DATA "$BASE_URL/?$FILE_ID") || return
+
+        # After resolving captcha we are redirected to an error page, so once again load a proper page.
+        PAGE=$(curl -b "$COOKIE_FILE" "$URL" | break_html_lines) || return
 
         # Your entry was incorrect, please try again!
-        if match 'Your entry was incorrect' "$PAGE"; then
+        if match 'form name="form_captcha"' "$PAGE"; then
             captcha_nack $ID
             log_error 'Wrong captcha'
             return $ERR_CAPTCHA
@@ -299,9 +305,6 @@ mediafire_download() {
 
         captcha_ack $ID
         log_debug 'Correct captcha'
-
-        # After resolving captcha we are redirected to an error page, so once again load a proper page.
-        PAGE=$(curl -b "$COOKIE_FILE" "$URL" | break_html_lines) || return
     fi
 
     # Check for password protected link

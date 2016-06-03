@@ -8,6 +8,7 @@
 anonfiles       | download | upload |        |      | probe |
 bayfiles        | download | upload | delete |      | probe |
 bayimg          | download | upload | delete |      | probe |
+bigfile         | download | upload | delete | list | probe |
 billionuploads  | download | upload |        |      | probe |
 bitshare        | download | upload | delete |      | probe |
 catshare        | download |        |        |      | probe |
@@ -27,6 +28,7 @@ fboom_me        | download |        |        |      | probe |
 filebin_ca      | download | upload |        |      | probe |
 filecloud       | download | upload |        | list | probe |
 filecore        | download |        |        |      | probe |
+filedais        | download |        |        |      | probe |
 filefactory     | download | upload |        | list | probe |
 filejoker       | download |        |        |      | probe |
 filemonkey      |          | upload |        |      |       |
@@ -46,6 +48,7 @@ gfile_ru        | download | upload |        |      | probe |
 go4up           |          | upload | delete | list |       |
 hdstream_to     | download | upload |        |      | probe |
 hipfile         | download | upload | delete | list | probe |
+hotlink_cc      | download |        |        |      | probe |
 jheberg         |          | upload |        | list | probe |
 keep2share      | download | upload |        |      | probe |
 letitbit        | download | upload | delete | list | probe |
@@ -89,10 +92,9 @@ ultramegabit    | download | upload |        |      | probe |
 uplea           | download |        |        |      | probe |
 upload_cd       | download |        |        |      | probe |
 uploadboy       | download |        |        |      | probe |
-uploadable_ch   | download | upload | delete | list | probe |
 uploading       | download | upload |        |      | probe |
 uploaded_net    | download | upload | delete | list | probe |
-uploadrocket    |          | upload |        |      |       |
+uploadrocket    | download | upload |        |      | probe |
 upstore         | download | upload |        |      | probe |
 uptobox         | download | upload |        |      | probe |
 videowood_tv    |          | upload |        |      |       |
