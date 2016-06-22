@@ -1,9 +1,22 @@
+plowshare-modules (0~git20160619.a950fa9-1) unstable; urgency=medium
+
+  * New upstream snapshot (git a950fa9):
+    + new: faststore, hexupload
+    + improved: rockfile.eu (+delete), uploadrocket (+delete, +password)
+    + fixed: dl.free.fr, go4up, keep2share, mediafire, openload
+  * debian/copyright:
+    - update copyright details for new and changed files.
+  * debian/control:
+    - update list of supported services.
+
+ -- Carl Suster <carl@contraflo.ws>  Wed, 22 Jun 2016 12:32:59 +1000
+
 plowshare-modules (0~git20160530.40ebcaf-1) unstable; urgency=medium
 
   * New upstream release (git 40ebcaf):
     + new: filedais/anafile, hotlink.cc
     + improved: uploadrocket (+download), fileshark (+premium),
-      go4up (+partial), keep2share (+ free download), rapidu (+premium),
+      go4up (+partial), keep2share (+free download), rapidu (+premium),
       uploadrocket (+download, +probe)
     + renamed: uploadable.ch → bigfile
     + fixed: mediafire, nitroflare, openload, rghost, tezfiles, uloz.to,
