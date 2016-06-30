@@ -43,6 +43,7 @@ Description: plowshare drivers for various file sharing websites
  chomikuj,
  crocko,
  data.hu (no probe),
+ datafile (no upload),
  dataport.cz (no probe),
  depositfiles,
  directmirror (no download, probe),
