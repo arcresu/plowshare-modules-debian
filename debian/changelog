@@ -1,3 +1,12 @@
+plowshare-modules (0~git20160629.1f211c2-1) UNRELEASED; urgency=medium
+
+  * New upstream snapshot (git 1f211c2):
+    + fixed: mediafire, uptobox
+  * debian/copyright:
+    - update copyright details for changed files.
+
+ -- Carl Suster <carl@contraflo.ws>  Thu, 11 Aug 2016 12:40:10 +1000
+
 plowshare-modules (0~git20160629.1f211c2-1) unstable; urgency=medium
 
   * New upstream snapshot (git 1f211c2):
