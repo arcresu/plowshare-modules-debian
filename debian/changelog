@@ -1,3 +1,12 @@
+plowshare-modules (0~git20160924.4c0c1f5-1) unstable; urgency=medium
+
+  * New upstream snapshot (git 4c0c1f5):
+    + fixed: 1fichier, shareonline.biz, uptobox, zippyshare
+  * debian/copyright:
+    - fix typo introduced in previous version.
+
+ -- Carl Suster <carl@contraflo.ws>  Tue, 04 Oct 2016 12:07:59 +1100
+
 plowshare-modules (0~git20160723.0fb390a-1) unstable; urgency=medium
 
   * New upstream snapshot (git 0fb390a):
