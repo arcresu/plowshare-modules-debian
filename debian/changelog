@@ -1,3 +1,12 @@
+plowshare-modules (0~git20161210.0930e85-1) unstable; urgency=medium
+
+  * New upstream snapshot (git 0930e85):
+    + fixed: catshare, filefactory, mediafire
+  * debian/copyright:
+    - update copyright details for changed files.
+
+ -- Carl Suster <carl@contraflo.ws>  Sun, 01 Jan 2017 15:16:27 +1100
+
 plowshare-modules (0~git20161105.4bed5b3-1) unstable; urgency=medium
 
   * New upstream snapshot (git 4bed5b3):

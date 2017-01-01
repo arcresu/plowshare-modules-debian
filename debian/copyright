@@ -71,6 +71,10 @@ Files: filedais.sh
 Copyright: 2016 Ben Zho <0xbzho@gmail.com>
 License: GPL-3+
 
+Files: filefactory.sh
+Copyright: 2013-2016 Plowshare team
+License: GPL-3+
+
 Files: filejoker.sh
 Copyright: 2016 Plowshare team
 License: GPL-3+
