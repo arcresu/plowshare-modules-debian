@@ -1,3 +1,12 @@
+plowshare-modules (0~git20170510.3767267-1) UNRELEASED; urgency=medium
+
+  * New upstream snapshot (git 3767267):
+    + fixed 1fichier, depositfiles, filecloud, filejoker, jheberg, keep2share,
+      mediafire, openload, sendspace, uloz.to, uptobox
+  * debian/copyright: updated copyright details for changed files.
+
+ -- Carl Suster <carl@contraflo.ws>  Wed, 07 Jun 2017 17:47:29 +0200
+
 plowshare-modules (0~git20161210.0930e85-1) unstable; urgency=medium
 
   * New upstream snapshot (git 0930e85):

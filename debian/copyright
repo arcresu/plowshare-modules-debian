@@ -46,6 +46,10 @@ Copyright: 2011 Petr Pulpán <Pulpan3@gmail.com>
            2012-2013 Plowshare team
 License: GPL-3+
 
+Files: depositfiles.sh
+Copyright: 2010-2016 Plowshare team
+License: GPL-3+
+
 Files: dl_free_fr.sh
 Copyright: 2010-2016 Plowshare team
 License: GPL-3+
@@ -76,7 +80,7 @@ Copyright: 2013-2016 Plowshare team
 License: GPL-3+
 
 Files: filejoker.sh
-Copyright: 2016 Plowshare team
+Copyright: 2017 Plowshare team
 License: GPL-3+
 
 Files: hexupload.sh
